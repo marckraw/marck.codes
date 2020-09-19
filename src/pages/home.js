@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div className="m-auto max-w-6xl">
       <section>Latest blog posts</section>
@@ -22,4 +22,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;

@@ -8,6 +8,18 @@ module.exports = {
     author: `Adam Romański`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Cormorant Garamond`,
+            subsets: ['latin-ext'],
+            variants: ['300', '300i', '400', '400i', '500', '500i', '600', '600i', '700', '700i'],
+          },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

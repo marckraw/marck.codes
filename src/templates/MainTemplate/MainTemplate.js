@@ -1,13 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const MainTemplate = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col justify-between min-h-screen">
       <Helmet lang="pl" title="Hello Roman" />
-      <header>This is header</header>
+      <Header />
       {children}
-      <footer>this is footer</footer>
+      <Footer />
     </div>
   );
 };

@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: '"Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif',
+      },
+    },
   },
   variants: {},
   plugins: [],
